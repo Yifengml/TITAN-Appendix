@@ -23,7 +23,7 @@ TITAN proactively **shrinks the VQE search space** by predicting which parameter
 
 ## Key Ideas
 
-- **APFA**: Maintain an **EMA of |grad|** per parameter; compute global magnitude and a decay ratio to **scale freeze/activate thresholds**; use **patience counters** to change states. Only **active** parameters are updated (Hadamard-masked gradient step). (*Appendix B*, Eqs. (2)–(6)). :contentReference[oaicite:6]{index=6}  
+- **APFA**: Maintain an **EMA of |grad|** per parameter; compute global magnitude and a decay ratio to **scale freeze/activate thresholds**; use **patience counters** to change states. Only **active** parameters are updated (Hadamard-masked gradient step). (*Appendix B*, Eqs. (2)–(6)). 
 - **Orthogonality**: TITAN complements (i) measurement-cost mitigation, (ii) ansatz design/compression, (iii) advanced classical optimizers. (*Appendix A*). 
 - **Layer-wise option (LGGD)**: Deterministic depth growth with exact gradients for the active prefix; reduced per-iteration cost. (*Appendix E.1*). 
 - **Benchmarks**: HEA on isotropic (XX+YY+ZZ) and anisotropic models; **molecular LiH** and others with second-quantized Hamiltonians and Givens rotations. (*Appendix F*). 
