@@ -13,16 +13,6 @@ TITAN is a learning-to-freeze framework that **predicts and manages parameter fr
 - [What is TITAN?](#what-is-titan)
 - [Key Ideas](#key-ideas)
 - [Installation](#installation)
-- [Quickstart](#quickstart)
-- [Reproduce Paper-style Setups](#reproduce-paper-style-setups)
-- [Project Layout](#project-layout)
-- [Configuration](#configuration)
-- [Visualizations](#visualizations)
-- [Limitations](#limitations)
-- [Citing](#citing)
-- [License](#license)
-- [Contact](#contact)
-
 ---
 
 ## What is TITAN?
